@@ -1,5 +1,5 @@
-from userbot.utils import *
-@bot.on(admin_cmd(pattern="ctt ?(.*)", outgoing= True, incoming=True))
+from .. import *
+@catub.cat_cmd(pattern="ctt ?(.*)")
 async def hi(event):
   text = event.pattern_match.group(1)
   if not text:

@@ -11,10 +11,14 @@ async def hi(event):`
 async def hi(event):`
 
 `@ultroid_cmd(pattern="")
-async def hi(event):
+async def hi(event):`
 
-from .. import *
+`from .. import *
 @catub.cat_cmd(pattern="")
-async sef hi(event):`
+async def hi(event):`
+
+`await bot.send_message(event.chat_id)`
+
+`await event.respond()`
 """)
 
